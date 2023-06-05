@@ -52,7 +52,7 @@ func (c Card) String() string {
 		return c.Suit.String()
 	}
 
-	return fmt.Sprintf("%s of %ss", c.Rank.String(), c.Suit.String())
+	return fmt.Sprintf("%s of %ss (%d)", c.Rank.String(), c.Suit.String(), c.Rank)
 }
 
 func New(opts ...func([]Card) []Card) []Card {
