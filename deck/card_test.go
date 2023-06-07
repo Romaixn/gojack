@@ -14,10 +14,10 @@ func ExampleCard() {
 	fmt.Println(Card{Suit: Joker})
 
 	// Output:
-	// Ace of Hearts
-	// Two of Spades
-	// Nine of Diamonds
-	// Jack of Clubs
+	// Ace of Hearts (1)
+	// Two of Spades (2)
+	// Nine of Diamonds (9)
+	// Jack of Clubs (11)
 	// Joker
 }
 
